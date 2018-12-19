@@ -1,0 +1,9 @@
+DMCORE.CPP		- implements the dialog core thread
+
+DMBRIDGE.CPP	- functions which bridge between the dialog management core and the Galaxy interface
+ 
+Galaxy :		a centralized message-passing infrastructure. Each component is implemented as a separate process that connects to 
+				a centralized traffic router ¨C the Galaxy hub.  The messages are sent through the hub, which forwards them to the appropriate 
+				destination. The routing logic is described by a configuration script.
+			
+UTILS.H			- definition of various functions useful throughout the components of the architecture

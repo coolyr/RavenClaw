@@ -1,0 +1,670 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\DialogTask">
+      <UniqueIdentifier>{d1873a23-3417-45bb-be79-6c32dde7be5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DMCore">
+      <UniqueIdentifier>{5f29939b-1a90-47c2-8ee4-f80f1a5ce441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DMCore\Agents">
+      <UniqueIdentifier>{d7f27321-0a0d-4263-b931-4bf89518bd5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DMCore\Agents\CoreAgents">
+      <UniqueIdentifier>{dcdbf398-6bdf-43dd-90ff-db3391500d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DMCore\Agents\DialogAgents">
+      <UniqueIdentifier>{dd12a60c-275c-4c6f-8e85-b8c8dd08c295}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DMCore\Agents\DialogAgents\BasicAgents">
+      <UniqueIdentifier>{477d9f13-e01e-4ca3-a22d-7b8b039e3be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DMCore\Agents\DialogAgents\DiscourseAgents">
+      <UniqueIdentifier>{17734929-3e97-4913-b9df-589ddbb1c58a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DMCore\Concepts">
+      <UniqueIdentifier>{444b2b1c-4717-4feb-9484-ce068373063e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DMCore\Events">
+      <UniqueIdentifier>{17012b89-2f9a-404e-91c7-973aa06d95f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DMCore\Grounding">
+      <UniqueIdentifier>{54ecf11d-97da-4f24-9b72-ace129c6c2a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DMCore\Grounding\GroundingActions">
+      <UniqueIdentifier>{42ba5d1e-d259-4a42-9e46-0c4c80f0e406}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DMCore\Grounding\GroundingModels">
+      <UniqueIdentifier>{4c6938ce-ffc4-4b64-af0c-b4a2e9552830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DMCore\Outputs">
+      <UniqueIdentifier>{d2601ea1-3bad-499c-8b20-f7353605cc9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\DMInterfaces">
+      <UniqueIdentifier>{bb007edb-22bb-42e6-9b9f-fa00fcb1ae66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Documentation">
+      <UniqueIdentifier>{584ef27d-e6a2-4144-9d21-8e9192443ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tools">
+      <UniqueIdentifier>{5b706aee-04c1-4578-80b8-79db9f01f022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tools\RavenClawLogParser">
+      <UniqueIdentifier>{0674e947-e596-4c31-9fa3-3fc1fd7ca954}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Utils">
+      <UniqueIdentifier>{8b6463b3-a3c1-45cb-b6c3-460ea5e84aa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Rosetta">
+      <UniqueIdentifier>{a43a4d52-0d1a-422b-bd82-0992edbaf451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Rosetta\Templates">
+      <UniqueIdentifier>{59121f80-97fa-4408-b23e-72840e4dc35c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DialogTask\DateTimeBindingFilters.cpp">
+      <Filter>源文件\DialogTask</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\DMBridge.cpp">
+      <Filter>源文件\DMCore</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\DMCore.cpp">
+      <Filter>源文件\DMCore</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Log.cpp">
+      <Filter>源文件\DMCore</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\Agent.cpp">
+      <Filter>源文件\DMCore\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\Registry.cpp">
+      <Filter>源文件\DMCore\Agents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\CoreAgents\DMCoreAgent.cpp">
+      <Filter>源文件\DMCore\Agents\CoreAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\CoreAgents\DTTManagerAgent.cpp">
+      <Filter>源文件\DMCore\Agents\CoreAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\CoreAgents\GroundingManagerAgent.cpp">
+      <Filter>源文件\DMCore\Agents\CoreAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\CoreAgents\InteractionEventManagerAgent.cpp">
+      <Filter>源文件\DMCore\Agents\CoreAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\CoreAgents\OutputManagerAgent.cpp">
+      <Filter>源文件\DMCore\Agents\CoreAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\CoreAgents\StateManagerAgent.cpp">
+      <Filter>源文件\DMCore\Agents\CoreAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\CoreAgents\TrafficManagerAgent.cpp">
+      <Filter>源文件\DMCore\Agents\CoreAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\DialogAgents\DialogAgent.cpp">
+      <Filter>源文件\DMCore\Agents\DialogAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\DialogAgents\BasicAgents\DialogAgency.cpp">
+      <Filter>源文件\DMCore\Agents\DialogAgents\BasicAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\DialogAgents\BasicAgents\MAExecute.cpp">
+      <Filter>源文件\DMCore\Agents\DialogAgents\BasicAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\DialogAgents\BasicAgents\MAExpect.cpp">
+      <Filter>源文件\DMCore\Agents\DialogAgents\BasicAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\DialogAgents\BasicAgents\MAInform.cpp">
+      <Filter>源文件\DMCore\Agents\DialogAgents\BasicAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\DialogAgents\BasicAgents\MARequest.cpp">
+      <Filter>源文件\DMCore\Agents\DialogAgents\BasicAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\DialogAgents\DiscourseAgents\AllDiscourseAgents.cpp">
+      <Filter>源文件\DMCore\Agents\DialogAgents\DiscourseAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\DialogAgents\DiscourseAgents\DAHelp.cpp">
+      <Filter>源文件\DMCore\Agents\DialogAgents\DiscourseAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\DialogAgents\DiscourseAgents\DANonUnderstanding.cpp">
+      <Filter>源文件\DMCore\Agents\DialogAgents\DiscourseAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\DialogAgents\DiscourseAgents\DAQuit.cpp">
+      <Filter>源文件\DMCore\Agents\DialogAgents\DiscourseAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\DialogAgents\DiscourseAgents\DARepeat.cpp">
+      <Filter>源文件\DMCore\Agents\DialogAgents\DiscourseAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\DialogAgents\DiscourseAgents\DAStartOver.cpp">
+      <Filter>源文件\DMCore\Agents\DialogAgents\DiscourseAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\DialogAgents\DiscourseAgents\DASuspend.cpp">
+      <Filter>源文件\DMCore\Agents\DialogAgents\DiscourseAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\DialogAgents\DiscourseAgents\DATerminate.cpp">
+      <Filter>源文件\DMCore\Agents\DialogAgents\DiscourseAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Agents\DialogAgents\DiscourseAgents\DATimeout.cpp">
+      <Filter>源文件\DMCore\Agents\DialogAgents\DiscourseAgents</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Concepts\ArrayConcept.cpp">
+      <Filter>源文件\DMCore\Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Concepts\BoolConcept.cpp">
+      <Filter>源文件\DMCore\Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Concepts\Concept.cpp">
+      <Filter>源文件\DMCore\Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Concepts\FloatConcept.cpp">
+      <Filter>源文件\DMCore\Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Concepts\FrameConcept.cpp">
+      <Filter>源文件\DMCore\Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Concepts\IntConcept.cpp">
+      <Filter>源文件\DMCore\Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Concepts\StringConcept.cpp">
+      <Filter>源文件\DMCore\Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Concepts\StructConcept.cpp">
+      <Filter>源文件\DMCore\Concepts</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Events\GalaxyInteractionEvent.cpp">
+      <Filter>源文件\DMCore\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Events\InteractionEvent.cpp">
+      <Filter>源文件\DMCore\Events</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingUtils.cpp">
+      <Filter>源文件\DMCore\Grounding</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAAccept.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAAskRepeat.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAAskRephrase.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAAskShortAnswerAndReprompt.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAAskShortAnswerAndWhatCanISay.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAAskStartOver.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAExplainMore.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAExplicitConfirm.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAFailRequest.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAFullHelp.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAGiveUp.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAImplicitConfirm.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAInteractionTips.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAMoveOn.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GANoAction.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GANotifyNonunderstanding.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GARepeatPrompt.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GASpeakLessLoudAndReprompt.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAWhatCanISay.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAYieldTurn.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GroundingAction.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingModels\AllGroundingModels.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingModels\GMConcept.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingModels\GMRequestAgent.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingModels\GMRequestAgent_Experiment.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingModels\GMRequestAgent_HandCrafted.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingModels\GMRequestAgent_LR.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingModels\GMRequestAgent_NumNonu.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Grounding\GroundingModels\GroundingModel.cpp">
+      <Filter>源文件\DMCore\Grounding\GroundingModels</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Outputs\FrameOutput.cpp">
+      <Filter>源文件\DMCore\Outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Outputs\LFOutput.cpp">
+      <Filter>源文件\DMCore\Outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="DMCore\Outputs\Output.cpp">
+      <Filter>源文件\DMCore\Outputs</Filter>
+    </ClCompile>
+    <ClCompile Include="DMInterfaces\GalaxyInterface.cpp">
+      <Filter>源文件\DMInterfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="DMInterfaces\OAAInterface.cpp">
+      <Filter>源文件\DMInterfaces</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\DebugUtils.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Utils.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogTask\Eg-MeetingLineDialogTask.cpp">
+      <Filter>源文件\DialogTask</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogTask\Eg-RoomLineDialogTask.cpp">
+      <Filter>源文件\DialogTask</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogTask\Eg-POI2DialogTask.cpp">
+      <Filter>源文件\DialogTask</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogTask\Eg-POI1DialogTask.cpp">
+      <Filter>源文件\DialogTask</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogTask\Eg-myPOI.cpp">
+      <Filter>源文件\DialogTask</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogTask\MyBusDialogTask.cpp">
+      <Filter>源文件\DialogTask</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogTask\navi.cpp">
+      <Filter>源文件\DialogTask</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogTask\MyBusDialogTask-2.cpp">
+      <Filter>源文件\DialogTask</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchLOC.cpp">
+      <Filter>源文件\DialogTask</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DialogTask\DateTimeBindingFilters.h">
+      <Filter>源文件\DialogTask</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogTask\DialogTask.h">
+      <Filter>源文件\DialogTask</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\Agent.h">
+      <Filter>源文件\DMCore\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\AllAgents.h">
+      <Filter>源文件\DMCore\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\Registry.h">
+      <Filter>源文件\DMCore\Agents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\CoreAgents\AllCoreAgents.h">
+      <Filter>源文件\DMCore\Agents\CoreAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\CoreAgents\DMCoreAgent.h">
+      <Filter>源文件\DMCore\Agents\CoreAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\CoreAgents\DTTManagerAgent.h">
+      <Filter>源文件\DMCore\Agents\CoreAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\CoreAgents\GroundingManagerAgent.h">
+      <Filter>源文件\DMCore\Agents\CoreAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\CoreAgents\InteractionEventManagerAgent.h">
+      <Filter>源文件\DMCore\Agents\CoreAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\CoreAgents\OutputManagerAgent.h">
+      <Filter>源文件\DMCore\Agents\CoreAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\CoreAgents\StateManagerAgent.h">
+      <Filter>源文件\DMCore\Agents\CoreAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\CoreAgents\TrafficManagerAgent.h">
+      <Filter>源文件\DMCore\Agents\CoreAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\DialogAgents\AllDialogAgents.h">
+      <Filter>源文件\DMCore\Agents\DialogAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\DialogAgents\DialogAgent.h">
+      <Filter>源文件\DMCore\Agents\DialogAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\DialogAgents\BasicAgents\AllBasicAgents.h">
+      <Filter>源文件\DMCore\Agents\DialogAgents\BasicAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\DialogAgents\BasicAgents\DialogAgency.h">
+      <Filter>源文件\DMCore\Agents\DialogAgents\BasicAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\DialogAgents\BasicAgents\MAExecute.h">
+      <Filter>源文件\DMCore\Agents\DialogAgents\BasicAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\DialogAgents\BasicAgents\MAExpect.h">
+      <Filter>源文件\DMCore\Agents\DialogAgents\BasicAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\DialogAgents\BasicAgents\MAInform.h">
+      <Filter>源文件\DMCore\Agents\DialogAgents\BasicAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\DialogAgents\BasicAgents\MARequest.h">
+      <Filter>源文件\DMCore\Agents\DialogAgents\BasicAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\DialogAgents\DiscourseAgents\AllDiscourseAgents.h">
+      <Filter>源文件\DMCore\Agents\DialogAgents\DiscourseAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\DialogAgents\DiscourseAgents\DAHelp.h">
+      <Filter>源文件\DMCore\Agents\DialogAgents\DiscourseAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\DialogAgents\DiscourseAgents\DANonUnderstanding.h">
+      <Filter>源文件\DMCore\Agents\DialogAgents\DiscourseAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\DialogAgents\DiscourseAgents\DAQuit.h">
+      <Filter>源文件\DMCore\Agents\DialogAgents\DiscourseAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\DialogAgents\DiscourseAgents\DARepeat.h">
+      <Filter>源文件\DMCore\Agents\DialogAgents\DiscourseAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\DialogAgents\DiscourseAgents\DAStartOver.h">
+      <Filter>源文件\DMCore\Agents\DialogAgents\DiscourseAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\DialogAgents\DiscourseAgents\DASuspend.h">
+      <Filter>源文件\DMCore\Agents\DialogAgents\DiscourseAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\DialogAgents\DiscourseAgents\DATerminate.h">
+      <Filter>源文件\DMCore\Agents\DialogAgents\DiscourseAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Agents\DialogAgents\DiscourseAgents\DATimeout.h">
+      <Filter>源文件\DMCore\Agents\DialogAgents\DiscourseAgents</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Concepts\AllConcepts.h">
+      <Filter>源文件\DMCore\Concepts</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Concepts\ArrayConcept.h">
+      <Filter>源文件\DMCore\Concepts</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Concepts\BoolConcept.h">
+      <Filter>源文件\DMCore\Concepts</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Concepts\Concept.h">
+      <Filter>源文件\DMCore\Concepts</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Concepts\DateTimeConcept.h">
+      <Filter>源文件\DMCore\Concepts</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Concepts\FloatConcept.h">
+      <Filter>源文件\DMCore\Concepts</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Concepts\FrameConcept.h">
+      <Filter>源文件\DMCore\Concepts</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Concepts\IntConcept.h">
+      <Filter>源文件\DMCore\Concepts</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Concepts\StringConcept.h">
+      <Filter>源文件\DMCore\Concepts</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Concepts\StructConcept.h">
+      <Filter>源文件\DMCore\Concepts</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Events\GalaxyInteractionEvent.h">
+      <Filter>源文件\DMCore\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Events\InteractionEvent.h">
+      <Filter>源文件\DMCore\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\Grounding.h">
+      <Filter>源文件\DMCore\Grounding</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingUtils.h">
+      <Filter>源文件\DMCore\Grounding</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\AllGroundingActions.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAAccept.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAAskRepeat.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAAskRephrase.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAAskShortAnswerAndReprompt.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAAskShortAnswerAndWhatCanISay.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAAskStartOver.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAExplainMore.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAExplicitConfirm.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAFailRequest.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAFullHelp.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAGiveUp.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAImplicitConfirm.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAInteractionTips.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAMoveOn.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GANoAction.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GANotifyNonunderstanding.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GARepeatPrompt.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GASpeakLessLoudAndReprompt.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAWhatCanISay.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAYieldTurn.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GroundingAction.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingActions\SpeakLessLoudAndReprompt.h">
+      <Filter>源文件\DMCore\Grounding\GroundingActions</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingModels\AllGroundingModels.h">
+      <Filter>源文件\DMCore\Grounding\GroundingModels</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingModels\GMConcept.h">
+      <Filter>源文件\DMCore\Grounding\GroundingModels</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingModels\GMRequestAgent.h">
+      <Filter>源文件\DMCore\Grounding\GroundingModels</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingModels\GMRequestAgent_Experiment.h">
+      <Filter>源文件\DMCore\Grounding\GroundingModels</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingModels\GMRequestAgent_HandCrafted.h">
+      <Filter>源文件\DMCore\Grounding\GroundingModels</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingModels\GMRequestAgent_LR.h">
+      <Filter>源文件\DMCore\Grounding\GroundingModels</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingModels\GMRequestAgent_NumNonu.h">
+      <Filter>源文件\DMCore\Grounding\GroundingModels</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Grounding\GroundingModels\GroundingModel.h">
+      <Filter>源文件\DMCore\Grounding\GroundingModels</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Outputs\FrameOutput.h">
+      <Filter>源文件\DMCore\Outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Outputs\LFOutput.h">
+      <Filter>源文件\DMCore\Outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Outputs\Output.h">
+      <Filter>源文件\DMCore\Outputs</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Core.h">
+      <Filter>源文件\DMCore</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\DMBridge.h">
+      <Filter>源文件\DMCore</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\DMCore.h">
+      <Filter>源文件\DMCore</Filter>
+    </ClInclude>
+    <ClInclude Include="DMCore\Log.h">
+      <Filter>源文件\DMCore</Filter>
+    </ClInclude>
+    <ClInclude Include="DMInterfaces\DMInterface.h">
+      <Filter>源文件\DMInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="DMInterfaces\GalaxyInterface.h">
+      <Filter>源文件\DMInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="DMInterfaces\GalaxyInterfaceFunctions.h">
+      <Filter>源文件\DMInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="DMInterfaces\OAAInterface.h">
+      <Filter>源文件\DMInterfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\DebugUtils.h">
+      <Filter>源文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Utils.h">
+      <Filter>源文件\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Documentation\agentlanguage.doc">
+      <Filter>源文件\Documentation</Filter>
+    </None>
+    <None Include="Documentation\RavenClaw - Overview.ppt">
+      <Filter>源文件\Documentation</Filter>
+    </None>
+    <None Include="Documentation\RavenClaw.doc">
+      <Filter>源文件\Documentation</Filter>
+    </None>
+    <None Include="Documentation\RavenClaw.ppt">
+      <Filter>源文件\Documentation</Filter>
+    </None>
+    <None Include="Tools\RavenClawLogParser\RavenClawLogParser.pm">
+      <Filter>源文件\Tools\RavenClawLogParser</Filter>
+    </None>
+    <None Include="Tools\RavenClawLogParser\test.perl">
+      <Filter>源文件\Tools\RavenClawLogParser</Filter>
+    </None>
+    <None Include="Utils\RavenClaw.vcproj">
+      <Filter>源文件\Utils</Filter>
+    </None>
+    <None Include="DialogTask\DateTimeBindingFilters.h.bak">
+      <Filter>源文件\DialogTask</Filter>
+    </None>
+    <None Include="DialogTask\DateTimeBindingFilters.cpp.bak">
+      <Filter>源文件\DialogTask</Filter>
+    </None>
+    <None Include="Rosetta\Templates.pm">
+      <Filter>源文件\Rosetta</Filter>
+    </None>
+    <None Include="Rosetta\launch_rosetta.pl">
+      <Filter>源文件\Rosetta</Filter>
+    </None>
+    <None Include="Rosetta\Templates\Request.pm">
+      <Filter>源文件\Rosetta\Templates</Filter>
+    </None>
+    <None Include="Rosetta\Templates\Inform.pm">
+      <Filter>源文件\Rosetta\Templates</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Documentation\Brainstorming.txt">
+      <Filter>源文件\Documentation</Filter>
+    </Text>
+    <Text Include="Documentation\CodingStyle.txt">
+      <Filter>源文件\Documentation</Filter>
+    </Text>
+    <Text Include="Documentation\querydefinitions.txt">
+      <Filter>源文件\Documentation</Filter>
+    </Text>
+    <Text Include="Documentation\ravenclaw2_ideas.txt">
+      <Filter>源文件\Documentation</Filter>
+    </Text>
+    <Text Include="Documentation\RavenClawLicence.txt">
+      <Filter>源文件\Documentation</Filter>
+    </Text>
+    <Text Include="Documentation\README.txt">
+      <Filter>源文件\Documentation</Filter>
+    </Text>
+    <Text Include="Documentation\TODO.txt">
+      <Filter>源文件\Documentation</Filter>
+    </Text>
+    <Text Include="Tools\RavenClawLogParser\dialog.log">
+      <Filter>源文件\Tools\RavenClawLogParser</Filter>
+    </Text>
+    <Text Include="CMakeLists.txt">
+      <Filter>源文件</Filter>
+    </Text>
+    <Text Include="codeStruct.txt">
+      <Filter>源文件\Documentation</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

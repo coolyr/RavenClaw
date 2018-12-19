@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{41BD1ECD-DA33-47B8-8B98-FB6333F612BF}</ProjectGuid>
+    <RootNamespace>RavenClaw</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="DialogTask\DateTimeBindingFilters.cpp" />
+    <ClCompile Include="DialogTask\Eg-MeetingLineDialogTask.cpp" />
+    <ClCompile Include="DialogTask\Eg-myPOI.cpp" />
+    <ClCompile Include="DialogTask\Eg-POI1DialogTask.cpp" />
+    <ClCompile Include="DialogTask\Eg-POI2DialogTask.cpp" />
+    <ClCompile Include="DialogTask\Eg-RoomLineDialogTask.cpp" />
+    <ClCompile Include="DialogTask\MyBusDialogTask-2.cpp" />
+    <ClCompile Include="DialogTask\MyBusDialogTask.cpp" />
+    <ClCompile Include="DialogTask\navi.cpp" />
+    <ClCompile Include="DMCore\Agents\Agent.cpp" />
+    <ClCompile Include="DMCore\Agents\CoreAgents\DMCoreAgent.cpp" />
+    <ClCompile Include="DMCore\Agents\CoreAgents\DTTManagerAgent.cpp" />
+    <ClCompile Include="DMCore\Agents\CoreAgents\GroundingManagerAgent.cpp" />
+    <ClCompile Include="DMCore\Agents\CoreAgents\InteractionEventManagerAgent.cpp" />
+    <ClCompile Include="DMCore\Agents\CoreAgents\OutputManagerAgent.cpp" />
+    <ClCompile Include="DMCore\Agents\CoreAgents\StateManagerAgent.cpp" />
+    <ClCompile Include="DMCore\Agents\CoreAgents\TrafficManagerAgent.cpp" />
+    <ClCompile Include="DMCore\Agents\DialogAgents\BasicAgents\DialogAgency.cpp" />
+    <ClCompile Include="DMCore\Agents\DialogAgents\BasicAgents\MAExecute.cpp" />
+    <ClCompile Include="DMCore\Agents\DialogAgents\BasicAgents\MAExpect.cpp" />
+    <ClCompile Include="DMCore\Agents\DialogAgents\BasicAgents\MAInform.cpp" />
+    <ClCompile Include="DMCore\Agents\DialogAgents\BasicAgents\MARequest.cpp" />
+    <ClCompile Include="DMCore\Agents\DialogAgents\DialogAgent.cpp" />
+    <ClCompile Include="DMCore\Agents\DialogAgents\DiscourseAgents\AllDiscourseAgents.cpp" />
+    <ClCompile Include="DMCore\Agents\DialogAgents\DiscourseAgents\DAHelp.cpp" />
+    <ClCompile Include="DMCore\Agents\DialogAgents\DiscourseAgents\DANonUnderstanding.cpp" />
+    <ClCompile Include="DMCore\Agents\DialogAgents\DiscourseAgents\DAQuit.cpp" />
+    <ClCompile Include="DMCore\Agents\DialogAgents\DiscourseAgents\DARepeat.cpp" />
+    <ClCompile Include="DMCore\Agents\DialogAgents\DiscourseAgents\DAStartOver.cpp" />
+    <ClCompile Include="DMCore\Agents\DialogAgents\DiscourseAgents\DASuspend.cpp" />
+    <ClCompile Include="DMCore\Agents\DialogAgents\DiscourseAgents\DATerminate.cpp" />
+    <ClCompile Include="DMCore\Agents\DialogAgents\DiscourseAgents\DATimeout.cpp" />
+    <ClCompile Include="DMCore\Agents\Registry.cpp" />
+    <ClCompile Include="DMCore\Concepts\ArrayConcept.cpp" />
+    <ClCompile Include="DMCore\Concepts\BoolConcept.cpp" />
+    <ClCompile Include="DMCore\Concepts\Concept.cpp" />
+    <ClCompile Include="DMCore\Concepts\FloatConcept.cpp" />
+    <ClCompile Include="DMCore\Concepts\FrameConcept.cpp" />
+    <ClCompile Include="DMCore\Concepts\IntConcept.cpp" />
+    <ClCompile Include="DMCore\Concepts\StringConcept.cpp" />
+    <ClCompile Include="DMCore\Concepts\StructConcept.cpp" />
+    <ClCompile Include="DMCore\DMBridge.cpp" />
+    <ClCompile Include="DMCore\DMCore.cpp" />
+    <ClCompile Include="DMCore\Events\GalaxyInteractionEvent.cpp" />
+    <ClCompile Include="DMCore\Events\InteractionEvent.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAAccept.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAAskRepeat.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAAskRephrase.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAAskShortAnswerAndReprompt.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAAskShortAnswerAndWhatCanISay.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAAskStartOver.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAExplainMore.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAExplicitConfirm.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAFailRequest.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAFullHelp.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAGiveUp.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAImplicitConfirm.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAInteractionTips.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAMoveOn.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GANoAction.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GANotifyNonunderstanding.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GARepeatPrompt.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GASpeakLessLoudAndReprompt.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAWhatCanISay.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GAYieldTurn.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingActions\GroundingAction.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingModels\AllGroundingModels.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingModels\GMConcept.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingModels\GMRequestAgent.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingModels\GMRequestAgent_Experiment.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingModels\GMRequestAgent_HandCrafted.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingModels\GMRequestAgent_LR.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingModels\GMRequestAgent_NumNonu.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingModels\GroundingModel.cpp" />
+    <ClCompile Include="DMCore\Grounding\GroundingUtils.cpp" />
+    <ClCompile Include="DMCore\Log.cpp" />
+    <ClCompile Include="DMCore\Outputs\FrameOutput.cpp" />
+    <ClCompile Include="DMCore\Outputs\LFOutput.cpp" />
+    <ClCompile Include="DMCore\Outputs\Output.cpp" />
+    <ClCompile Include="DMInterfaces\GalaxyInterface.cpp" />
+    <ClCompile Include="DMInterfaces\OAAInterface.cpp" />
+    <ClCompile Include="SearchLOC.cpp" />
+    <ClCompile Include="Utils\DebugUtils.cpp" />
+    <ClCompile Include="Utils\Utils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DialogTask\DateTimeBindingFilters.h" />
+    <ClInclude Include="DialogTask\DialogTask.h" />
+    <ClInclude Include="DMCore\Agents\Agent.h" />
+    <ClInclude Include="DMCore\Agents\AllAgents.h" />
+    <ClInclude Include="DMCore\Agents\CoreAgents\AllCoreAgents.h" />
+    <ClInclude Include="DMCore\Agents\CoreAgents\DMCoreAgent.h" />
+    <ClInclude Include="DMCore\Agents\CoreAgents\DTTManagerAgent.h" />
+    <ClInclude Include="DMCore\Agents\CoreAgents\GroundingManagerAgent.h" />
+    <ClInclude Include="DMCore\Agents\CoreAgents\InteractionEventManagerAgent.h" />
+    <ClInclude Include="DMCore\Agents\CoreAgents\OutputManagerAgent.h" />
+    <ClInclude Include="DMCore\Agents\CoreAgents\StateManagerAgent.h" />
+    <ClInclude Include="DMCore\Agents\CoreAgents\TrafficManagerAgent.h" />
+    <ClInclude Include="DMCore\Agents\DialogAgents\AllDialogAgents.h" />
+    <ClInclude Include="DMCore\Agents\DialogAgents\BasicAgents\AllBasicAgents.h" />
+    <ClInclude Include="DMCore\Agents\DialogAgents\BasicAgents\DialogAgency.h" />
+    <ClInclude Include="DMCore\Agents\DialogAgents\BasicAgents\MAExecute.h" />
+    <ClInclude Include="DMCore\Agents\DialogAgents\BasicAgents\MAExpect.h" />
+    <ClInclude Include="DMCore\Agents\DialogAgents\BasicAgents\MAInform.h" />
+    <ClInclude Include="DMCore\Agents\DialogAgents\BasicAgents\MARequest.h" />
+    <ClInclude Include="DMCore\Agents\DialogAgents\DialogAgent.h" />
+    <ClInclude Include="DMCore\Agents\DialogAgents\DiscourseAgents\AllDiscourseAgents.h" />
+    <ClInclude Include="DMCore\Agents\DialogAgents\DiscourseAgents\DAHelp.h" />
+    <ClInclude Include="DMCore\Agents\DialogAgents\DiscourseAgents\DANonUnderstanding.h" />
+    <ClInclude Include="DMCore\Agents\DialogAgents\DiscourseAgents\DAQuit.h" />
+    <ClInclude Include="DMCore\Agents\DialogAgents\DiscourseAgents\DARepeat.h" />
+    <ClInclude Include="DMCore\Agents\DialogAgents\DiscourseAgents\DAStartOver.h" />
+    <ClInclude Include="DMCore\Agents\DialogAgents\DiscourseAgents\DASuspend.h" />
+    <ClInclude Include="DMCore\Agents\DialogAgents\DiscourseAgents\DATerminate.h" />
+    <ClInclude Include="DMCore\Agents\DialogAgents\DiscourseAgents\DATimeout.h" />
+    <ClInclude Include="DMCore\Agents\Registry.h" />
+    <ClInclude Include="DMCore\Concepts\AllConcepts.h" />
+    <ClInclude Include="DMCore\Concepts\ArrayConcept.h" />
+    <ClInclude Include="DMCore\Concepts\BoolConcept.h" />
+    <ClInclude Include="DMCore\Concepts\Concept.h" />
+    <ClInclude Include="DMCore\Concepts\DateTimeConcept.h" />
+    <ClInclude Include="DMCore\Concepts\FloatConcept.h" />
+    <ClInclude Include="DMCore\Concepts\FrameConcept.h" />
+    <ClInclude Include="DMCore\Concepts\IntConcept.h" />
+    <ClInclude Include="DMCore\Concepts\StringConcept.h" />
+    <ClInclude Include="DMCore\Concepts\StructConcept.h" />
+    <ClInclude Include="DMCore\Core.h" />
+    <ClInclude Include="DMCore\DMBridge.h" />
+    <ClInclude Include="DMCore\DMCore.h" />
+    <ClInclude Include="DMCore\Events\GalaxyInteractionEvent.h" />
+    <ClInclude Include="DMCore\Events\InteractionEvent.h" />
+    <ClInclude Include="DMCore\Grounding\Grounding.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\AllGroundingActions.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAAccept.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAAskRepeat.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAAskRephrase.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAAskShortAnswerAndReprompt.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAAskShortAnswerAndWhatCanISay.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAAskStartOver.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAExplainMore.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAExplicitConfirm.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAFailRequest.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAFullHelp.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAGiveUp.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAImplicitConfirm.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAInteractionTips.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAMoveOn.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GANoAction.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GANotifyNonunderstanding.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GARepeatPrompt.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GASpeakLessLoudAndReprompt.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAWhatCanISay.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GAYieldTurn.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\GroundingAction.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingActions\SpeakLessLoudAndReprompt.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingModels\AllGroundingModels.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingModels\GMConcept.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingModels\GMRequestAgent.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingModels\GMRequestAgent_Experiment.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingModels\GMRequestAgent_HandCrafted.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingModels\GMRequestAgent_LR.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingModels\GMRequestAgent_NumNonu.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingModels\GroundingModel.h" />
+    <ClInclude Include="DMCore\Grounding\GroundingUtils.h" />
+    <ClInclude Include="DMCore\Log.h" />
+    <ClInclude Include="DMCore\Outputs\FrameOutput.h" />
+    <ClInclude Include="DMCore\Outputs\LFOutput.h" />
+    <ClInclude Include="DMCore\Outputs\Output.h" />
+    <ClInclude Include="DMInterfaces\DMInterface.h" />
+    <ClInclude Include="DMInterfaces\GalaxyInterface.h" />
+    <ClInclude Include="DMInterfaces\GalaxyInterfaceFunctions.h" />
+    <ClInclude Include="DMInterfaces\OAAInterface.h" />
+    <ClInclude Include="Utils\DebugUtils.h" />
+    <ClInclude Include="Utils\Utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DialogTask\DateTimeBindingFilters.cpp.bak" />
+    <None Include="DialogTask\DateTimeBindingFilters.h.bak" />
+    <None Include="Documentation\agentlanguage.doc" />
+    <None Include="Documentation\RavenClaw - Overview.ppt" />
+    <None Include="Documentation\RavenClaw.doc" />
+    <None Include="Documentation\RavenClaw.ppt" />
+    <None Include="Rosetta\launch_rosetta.pl" />
+    <None Include="Rosetta\Templates.pm" />
+    <None Include="Rosetta\Templates\Inform.pm" />
+    <None Include="Rosetta\Templates\Request.pm" />
+    <None Include="Tools\RavenClawLogParser\RavenClawLogParser.pm" />
+    <None Include="Tools\RavenClawLogParser\test.perl" />
+    <None Include="Utils\RavenClaw.vcproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
+    <Text Include="codeStruct.txt" />
+    <Text Include="Documentation\Brainstorming.txt" />
+    <Text Include="Documentation\CodingStyle.txt" />
+    <Text Include="Documentation\querydefinitions.txt" />
+    <Text Include="Documentation\ravenclaw2_ideas.txt" />
+    <Text Include="Documentation\RavenClawLicence.txt" />
+    <Text Include="Documentation\README.txt" />
+    <Text Include="Documentation\TODO.txt" />
+    <Text Include="Tools\RavenClawLogParser\dialog.log" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
